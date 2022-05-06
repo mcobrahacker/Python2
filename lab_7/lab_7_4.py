@@ -1,0 +1,1 @@
+print(min(filter(lambda x: x > 0, a)))
