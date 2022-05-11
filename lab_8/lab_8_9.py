@@ -1,3 +1,4 @@
+
 n,l=map(int, input().split())
 matrix=[(input().split()+['0']*l)[:l] for _ in range(n)]
 rev_matrix=[[matrix[j][i] for j in range(n)] for i in range(l)] 
